@@ -2,7 +2,7 @@
 
 1. このプロジェクトをGitHubリポジトリへアップロードします。
 2. GitHubのリポジトリで「Settings」→「Pages」を開きます。
-3. 「Build and deployment」のSourceを「GitHub Actions」に変更します。
+3. 「Build and deployment」のSourceを「GitHub Actions」に変更します。未設定の場合は、最初のワークフロー実行時に自動で有効化されます。
 4. `main`ブランチへpushすると、自動的にビルド・公開されます。
 
 ローカルで確認する場合：
